@@ -13,9 +13,11 @@ int fact(int n){
 
 int main() {
     int n;
+    cout << "Enter a number: ";
+    cin >> n;
     memset(save, -1, sizeof(save));
 
-    cout<<fact(n);
+    cout << "Factorial of " << n << " is: " << fact(n) << endl;
 
-	return 0;
+    return 0;
 }
